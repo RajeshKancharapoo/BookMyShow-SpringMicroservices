@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: JWTAuth-Service
+  config:
+    import: configserver:http://localhost:8888
